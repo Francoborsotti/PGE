@@ -1,0 +1,11 @@
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\bin\Debug\La_Calculadora.exe.config
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\bin\Debug\La_Calculadora.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\bin\Debug\La_Calculadora.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.csproj.AssemblyReference.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.Form1.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.Properties.Resources.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.csproj.GenerateResource.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\La_Calculadora\obj\Debug\La_Calculadora.exe.config

@@ -1,0 +1,11 @@
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\bin\Debug\Ejercicio_flash.exe.config
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\bin\Debug\Ejercicio_flash.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\bin\Debug\Ejercicio_flash.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.csproj.AssemblyReference.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.Form1.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.Properties.Resources.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.csproj.GenerateResource.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.csproj.CoreCompileInputs.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Ejercicio_flash\obj\Debug\Ejercicio_flash.exe.config

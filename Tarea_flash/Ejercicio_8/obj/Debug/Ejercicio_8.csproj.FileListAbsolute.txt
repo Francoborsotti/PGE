@@ -1,0 +1,11 @@
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\bin\Debug\Ejercicio_8.exe.config
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\bin\Debug\Ejercicio_8.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\bin\Debug\Ejercicio_8.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.csproj.AssemblyReference.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.Form1.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.Properties.Resources.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.csproj.GenerateResource.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.csproj.CoreCompileInputs.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Tarea_5\Ejercicio_8\obj\Debug\Ejercicio_8.exe.config
