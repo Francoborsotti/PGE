@@ -1,0 +1,49 @@
+﻿<Window x:Class="Ejercicio_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Label x:Name="labelResultado" Content="0" HorizontalAlignment="Left" Margin="267,75,0,0" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="grados" HorizontalAlignment="Left" Margin="267,41,0,0" TextWrapping="Wrap" Text="Ingrese la Temperatura" VerticalAlignment="Top" Width="133" Height="29"/>
+            <Label Content="Ingrese la temperatura en celcius:" HorizontalAlignment="Left" Margin="47,41,0,0" VerticalAlignment="Top" Height="30" Width="188" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label Content="Ingrese la temperatura en celcius:" HorizontalAlignment="Left" Margin="47,41,0,0" VerticalAlignment="Top" Height="30" Width="188" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Button Content="Convertir" HorizontalAlignment="Left" Margin="405,41,0,0" VerticalAlignment="Top" Height="29" Width="58" Click="Button_Click"/>
+            <Label x:Name="mensajeError" Content="" HorizontalAlignment="Left" Margin="481,41,0,0" VerticalAlignment="Top" Height="30" Width="152"/>
+        </Grid>
+        <Label Content="Ingrese la temperatura en fahrenheit:" HorizontalAlignment="Left" Margin="47
+               ,76,0,0" VerticalAlignment="Top" Height="30" Width="211" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+    </Grid>
+</Window>

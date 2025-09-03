@@ -1,0 +1,16 @@
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.AssemblyReference.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\MainWindow.g.cs
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\App.g.cs
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1_MarkupCompile.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1_MarkupCompile.lref
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\MainWindow.baml
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.g.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.Properties.Resources.resources
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.GenerateResource.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.CoreCompileInputs.cache
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.exe
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
+C:\Users\franc\Documents\Facultad\Tercer Año\Segundo cuatrimestre\PGE\Repo\PGE\Tarea_6\Ejercicio_1\obj\Debug\Ejercicio_1.exe.config
