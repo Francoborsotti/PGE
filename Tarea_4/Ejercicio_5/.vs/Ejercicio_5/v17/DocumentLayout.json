@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Tarea_4\\Ejercicio_5\\",
+  "WorkspaceRootPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_4\\Ejercicio_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4F719AA-32CE-481B-91E8-F716FF6B20FD}|Ejercicio_5\\Ejercicio_5.vcxproj|C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Tarea_4\\Ejercicio_5\\Ejercicio_5\\Ejercicio_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C4F719AA-32CE-481B-91E8-F716FF6B20FD}|Ejercicio_5\\Ejercicio_5.vcxproj|C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_4\\Ejercicio_5\\Ejercicio_5\\Ejercicio_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C4F719AA-32CE-481B-91E8-F716FF6B20FD}|Ejercicio_5\\Ejercicio_5.vcxproj|solutionrelative:Ejercicio_5\\Ejercicio_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +30,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
@@ -40,11 +44,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Ejercicio_5.cpp",
-              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Tarea_4\\Ejercicio_5\\Ejercicio_5\\Ejercicio_5.cpp",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_4\\Ejercicio_5\\Ejercicio_5\\Ejercicio_5.cpp",
               "RelativeDocumentMoniker": "Ejercicio_5\\Ejercicio_5.cpp",
-              "ToolTip": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Tarea_4\\Ejercicio_5\\Ejercicio_5\\Ejercicio_5.cpp",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_4\\Ejercicio_5\\Ejercicio_5\\Ejercicio_5.cpp",
               "RelativeToolTip": "Ejercicio_5\\Ejercicio_5.cpp",
-              "ViewState": "AgIAABEBAAAAAAAAAAAAANYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAANYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-20T18:48:24.172Z",
               "EditorCaption": ""

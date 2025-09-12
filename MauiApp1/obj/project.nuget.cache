@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "sJOdk9mMF1k=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\MauiApp1\\MauiApp1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Error al enviar la solicitud.\r\n  No se puede resolver el nombre remoto: 'api.nuget.org'",
+      "projectPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\MauiApp1\\MauiApp1.csproj",
+      "filePath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\MauiApp1\\MauiApp1.csproj",
+      "libraryId": "Microsoft.NET.ILLink.Tasks",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Error al enviar la solicitud.\r\n  No se puede resolver el nombre remoto: 'api.nuget.org'",
+      "projectPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\MauiApp1\\MauiApp1.csproj",
+      "filePath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\MauiApp1\\MauiApp1.csproj",
+      "libraryId": "Microsoft.Extensions.Logging.Debug",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\MauiApp1\\MauiApp1.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\MauiApp1\\MauiApp1.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

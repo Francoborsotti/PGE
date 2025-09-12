@@ -7,6 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <DockPanel LastChildFill="False">
+            <DockPanel DockPanel.Dock="Top" Height="100">
+                <StackPanel DockPanel.Dock="Left" Width="167">
+                    <TextBox TextWrapping="Wrap" Text="Color" Width="120"/>
+                    <ComboBox x:Name="ColorCombo" Width="120" SelectedIndex="0">
+                        <ComboBoxItem Content="Negro"/>
+                        <ComboBoxItem Content="Rojo"/>
+                        <ComboBoxItem Content="Azul"/>
+                        <ComboBoxItem Content="Verde"/>
+                    </ComboBox>
+                    <TextBox TextWrapping="Wrap" Text="Grosor" Width="120"/>
+                    <Slider x:Name="GrosorSlider" Width="150" Minimum="1" Maximum="20" Value="3"/>
+                    <Button x:Name="BtnLimpiar" Content="Limpiar" Click="BtnLimpiar_Click"/>
+                </StackPanel>
+            </DockPanel>
+            <Canvas x:Name="Lienzo" Width="799" Background="White" MouseDown="Lienzo_MouseDown" MouseMove="Lienzo_MouseMove" MouseUp="Lienzo_MouseUp" MouseLeave="Lienzo_MouseLeave"/>
+        </DockPanel>
     </Grid>
 </Window>

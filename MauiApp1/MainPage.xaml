@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    <VerticalStackLayout Padding="24" Spacing="12">
+        <Label Text="Hola Maui" FontSize="24" HorizontalOpcions="Center" />
+        <Entry xml:Name="txtNombre" Placeholder="Tu Nombre" />
+        <Button text="Saludar" Clicked="onSaludarCliked" />
+        <Label xml:Name="lblSaludo" FontSize="18"
+    </VerticalStackLayout>
+</ContentPage>
