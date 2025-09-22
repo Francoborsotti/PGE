@@ -1,0 +1,4 @@
+Actividad:
+Actualizar el código para que se puedan realizar raíces y potencias, siempre teniendo en cuenta los casos que no son posibles como raíces negativas.
+Preguntas al asistente:
+En su mayoría fueron preguntas para poder adaptar el código brindado a un nuevo proyecto, la mejor respuesta fue cunado me dijo donde se encontraban las excepciones
