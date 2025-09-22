@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C17A9A86-91F1-4B5A-9A2D-791DDB8C7595}|Ejercicio_4.csproj|c:\\users\\franc\\documents\\facultad\\tercer a\u00F1o\\segundo cuatrimestre\\pge\\repo\\pge\\tarea_8\\ejercicio_4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C17A9A86-91F1-4B5A-9A2D-791DDB8C7595}|Ejercicio_4.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C17A9A86-91F1-4B5A-9A2D-791DDB8C7595}|Ejercicio_4.csproj|c:\\users\\franc\\documents\\facultad\\tercer a\u00F1o\\segundo cuatrimestre\\pge\\repo\\pge\\tarea_8\\ejercicio_4\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C17A9A86-91F1-4B5A-9A2D-791DDB8C7595}|Ejercicio_4.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1309,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 61,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_4\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_4\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-22T20:31:58.671Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_4\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Facultad\\Tercer A\u00F1o\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_4\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwJQAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T20:32:56.15Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

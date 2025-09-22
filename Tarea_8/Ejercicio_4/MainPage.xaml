@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_4.MainPage"
+             Title="Excepciones comunes">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="10">
+            <Label Text="Botones de ejemplo: disparo y prevención" FontAttributes="Bold" FontSize="20"/>
+
+            <Button Text="ArgumentNullException" Clicked="OnArgNullClicked"/>
+            <Label Text="Prevenila verificando null antes de usar o con parámetros obligatorios." FontSize="12"/>
+
+            <Button Text="ArgumentOutOfRangeException" Clicked="OnAoorClicked"/>
+            <Label Text="Prevenila validando que el valor esté dentro del rango permitido." FontSize="12"/>
+
+            <Button Text="InvalidOperationException" Clicked="OnInvOpClicked"/>
+            <Label Text="Prevenila comprobando el estado del objeto antes de la operación." FontSize="12"/>
+
+            <Button Text="FormatException" Clicked="OnFormatClicked"/>
+            <Label Text="Prevenila usando TryParse en lugar de Parse para validar el formato." FontSize="12"/>
+
+            <Button Text="NullReferenceException" Clicked="OnNullClicked"/>
+            <Label Text="Prevenila inicializando objetos y chequeando null antes de usarlos." FontSize="12"/>
+
+            <Button Text="IndexOutOfRangeException" Clicked="OnIndexClicked"/>
+            <Label Text="Prevenila validando que el índice esté entre 0 y Length-1." FontSize="12"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
