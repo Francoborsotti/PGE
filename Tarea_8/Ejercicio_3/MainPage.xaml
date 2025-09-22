@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_3.MainPage"
+             Title="Login simulado">
+
+    <VerticalStackLayout Padding="16" Spacing="12">
+        <Label Text="Usuario / Clave (pass = 1234 para éxito)" FontAttributes="Bold" FontSize="20"/>
+
+        <Entry x:Name="UserEntry" Placeholder="Usuario" />
+        <Entry x:Name="PassEntry" Placeholder="Clave" IsPassword="True" />
+
+        <HorizontalStackLayout Spacing="8">
+            <Button x:Name="LoginBtn" Text="Ingresar" Clicked="OnLoginClicked"/>
+            <Button x:Name="NullReferenceException" Clicked="OnException1Clicked"/>
+            <Button x:Name="IndexOutOfRangeException" Clicked="OnException2Clicked"/>
+            <ActivityIndicator x:Name="Busy" IsRunning="False" IsVisible="False"/>
+        </HorizontalStackLayout>
+
+        <Label x:Name="ResultLabel" Text="Resultado: -" />
+        <Label Text="Casos de prueba: user=timeout (timeout) | user=net (HttpRequestException)" FontSize="12"/>
+    </VerticalStackLayout>
+
+</ContentPage>
