@@ -12,8 +12,6 @@
 
         <HorizontalStackLayout Spacing="8">
             <Button x:Name="LoginBtn" Text="Ingresar" Clicked="OnLoginClicked"/>
-            <Button x:Name="NullReferenceException" Clicked="OnException1Clicked"/>
-            <Button x:Name="IndexOutOfRangeException" Clicked="OnException2Clicked"/>
             <ActivityIndicator x:Name="Busy" IsRunning="False" IsVisible="False"/>
         </HorizontalStackLayout>
 

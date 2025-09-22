@@ -26140,11 +26140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_3\\Ejercicio_3.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_7\\Ejercicio_3\\Ejercicio_3.csproj",
       "projectName": "Ejercicio_3",
-      "projectPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_3\\Ejercicio_3.csproj",
+      "projectPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_7\\Ejercicio_3\\Ejercicio_3.csproj",
       "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_3\\obj\\",
+      "outputPath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_7\\Ejercicio_3\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

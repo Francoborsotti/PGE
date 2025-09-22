@@ -1,9 +1,25 @@
 ﻿using System.Text;
 
 namespace Ejercicio_3
-{
+{ 
     public partial class MainPage : ContentPage
     {
+        int contador = 0;
+
+        string GetErrorType(Exception ex, bool credencialesFallidas = false)
+        {
+            if (credencialesFallidas) return "credential";
+
+            return ex switch
+            {
+                ArgumentNullException => "validation",
+                ArgumentOutOfRangeException => "validation",
+                HttpRequestException => "network",
+                TaskCanceledException => "timeout",
+                _ => "unknown"
+            };
+        }
+
         public sealed class FakeAuthService
         {
             // Simula un “endpoint” remoto con delay y fallas controladas
@@ -48,13 +64,13 @@ namespace Ejercicio_3
             {
                 return ex switch
                 {
+                    TaskCanceledException => "La solicitud tardó demasiado. Esperá unos segundos e intentá de nuevo.",
+                    HttpRequestException => "No pudimos comunicarnos con el servicio. Verificá tu conexión e intentá nuevamente.",
                     DivideByZeroException => "No se puede dividir por cero.",
                     FormatException => "Ingresá números válidos (usa punto decimal si corresponde).",
                     FileNotFoundException => "El archivo no existe.",
                     UnauthorizedAccessException => "La app no tiene permisos para acceder al archivo.",
                     IOException => "Error de entrada/salida al manejar el archivo.",
-                    HttpRequestException => "Problema de conexión con el servicio. Intentá nuevamente.",
-                    TaskCanceledException => "La operación tardó demasiado (timeout).",
                     ArgumentNullException => "Falta un dato requerido.",
                     ArgumentOutOfRangeException => "El valor está fuera del rango permitido.",
                     InvalidOperationException => "La operación no es válida en el estado actual.",
@@ -111,7 +127,31 @@ namespace Ejercicio_3
                 // “Llamada” remota con timeout de 2.5s
                 var ok = await _service.LoginAsync(user, pass, TimeSpan.FromSeconds(2.5));
 
-                ResultLabel.Text = ok ? "Resultado: acceso concedido ✅" : "Resultado: credenciales inválidas ❌";
+                if (ok)
+                {
+                    ResultLabel.Text = "Resultado: acceso concedido ✅";
+                    contador = 0;
+                }
+                else
+                {
+                    ResultLabel.Text = "Resultado: credenciales inválidas ❌";
+                    contador ++;
+
+                    var userName = UserEntry.Text?.Trim() ?? "(vacío)";
+                    LogService.WriteLine($"[LoginFail] user={userName} when={DateTime.Now:O} type={GetErrorType(null!, credencialesFallidas: true)}");
+
+
+                    if (contador >= 3)
+                    {
+                        await DisplayAlert("Aviso", "Demasiados intentos fallidos. Esperá 15 segundos para reintentar", "OK");
+
+                        LoginBtn.IsEnabled = false ;
+                        await Task.Delay(TimeSpan.FromSeconds(15));
+
+                        contador = 0;
+                        LoginBtn.IsEnabled = true ;
+                    }
+                }
             }
             catch (Exception ex) when (ex is HttpRequestException || ex is TaskCanceledException || ex is ArgumentNullException || ex is ArgumentOutOfRangeException)
             {
@@ -124,16 +164,6 @@ namespace Ejercicio_3
                 Busy.IsVisible = Busy.IsRunning = false;
                 LoginBtn.IsEnabled = true;
             }
-        }
-
-        async void OnException1Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        async void OnException2Clicked(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2VCZuU1ZNM4=",
+  "dgSpecHash": "np6ZIUud3RU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_8\\Ejercicio_3\\Ejercicio_3.csproj",
+  "projectFilePath": "C:\\Users\\franc\\Documents\\Facultad\\Tercer Año\\Segundo cuatrimestre\\PGE\\Repo\\PGE\\Tarea_7\\Ejercicio_3\\Ejercicio_3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\franc\\.nuget\\packages\\googlegson\\2.13.0.1\\googlegson.2.13.0.1.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
