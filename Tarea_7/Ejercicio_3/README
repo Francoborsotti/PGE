@@ -1,0 +1,4 @@
+Actividad:
+Añadir al login una función que luego de 3 intentos se bloquee el botón de ingresar durante 15 segundos
+Preguntas a la AI:
+La pregunta mas importante fue para poder entender como funcionaba la validación de usuarios, su respuesta me permitió entender de mejor manera como funcionaba el sistema 
