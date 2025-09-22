@@ -53,6 +53,15 @@ namespace Ejercicio_2
 
         string FullPath(string file) => Path.Combine(FileSystem.AppDataDirectory, file);
 
+        void UpdateFileInfoUI(string path)
+        {
+            var fi = new FileInfo(path);
+            var size = fi.Exists ? fi.Length : 0;
+            var mod = fi.Exists ? fi.LastWriteTime : DateTime.MinValue;
+
+            StatusLabel.Text = $"Estado: {path}\nTamaño: {size} bytes\nModificado: {mod:G}";
+        }
+
         async void OnGuardarClicked(object sender, EventArgs e)
         {
             try
@@ -100,6 +109,38 @@ namespace Ejercicio_2
             catch (Exception ex) when (ex is FileNotFoundException || ex is UnauthorizedAccessException || ex is IOException || ex is ArgumentNullException)
             {
                 LogService.WriteLine($"[Abrir] {ex.GetType().Name} - {ex.Message}");
+                await DisplayAlert("Error", ToUserMessage(ex), "OK");
+            }
+        }
+        async void OnDuplicarClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var file = FileNameEntry.Text?.Trim();
+                if (string.IsNullOrWhiteSpace(file))
+                    throw new FileNotFoundException("No hay un archivo activo para duplicar.", file);
+
+                var origen = FullPath(file);
+                if (!File.Exists(origen))
+                    throw new FileNotFoundException("El archivo activo no existe.", origen);
+
+                var sugerido = Path.GetFileNameWithoutExtension(file) + "_copia" + Path.GetExtension(file);
+                var nuevoNombre = await DisplayPromptAsync("Duplicar", "Nombre del nuevo archivo:", initialValue: sugerido);
+                if (string.IsNullOrWhiteSpace(nuevoNombre))
+                    return;
+
+                var destino = FullPath(nuevoNombre);
+
+                using (var src = new FileStream(origen, FileMode.Open, FileAccess.Read, FileShare.Read))
+                using (var dst = new FileStream(destino, FileMode.Create, FileAccess.Write, FileShare.Read))
+                {
+                    await src.CopyToAsync(dst);
+                }
+                UpdateFileInfoUI(destino);
+            }
+            catch (Exception ex) when (ex is FileNotFoundException || ex is UnauthorizedAccessException || ex is IOException)
+            {
+                LogService.WriteLine($"[Duplicar] {ex.GetType().Name} - {ex.Message}");
                 await DisplayAlert("Error", ToUserMessage(ex), "OK");
             }
         }
